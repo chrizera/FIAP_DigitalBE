@@ -1,0 +1,9 @@
+INDEX VERSION 1.129+D:\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.eclipse.jdt.core
+435065152.index
+3110876894.index
+2556764948.index
+2909693946.index
+3867576328.index
+2303279621.index
+1829971783.index
+1673675765.index

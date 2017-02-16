@@ -1,0 +1,14 @@
+package com.fiap.loja.config;
+
+import java.util.Properties;
+
+public class PropertySingleton {
+	private static Properties prop;
+	private PropertySingleton() {}
+	
+	public static Properties getInstance() {
+		if(prop == null) {
+			prop = new Properties();
+		}
+	}
+}

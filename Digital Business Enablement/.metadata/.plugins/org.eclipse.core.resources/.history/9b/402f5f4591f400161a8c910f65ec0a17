@@ -1,0 +1,5 @@
+package com.fiap.loja.config;
+
+public class PropertySingleton {
+
+}

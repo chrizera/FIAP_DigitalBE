@@ -1,0 +1,8 @@
+2017-02-16 20:15:58 DEBUG Teste:13 - Lendo uma propriedade do sistema
+2017-02-16 20:15:58 INFO  PropertySingleton:21 - Carregando as propriedades
+2017-02-16 20:15:58 INFO  PropertySingleton:25 - Carregando as propriedades
+2017-02-16 20:15:58 TRACE PropertySingleton:34 - Retornando as propriedades
+2017-02-16 20:30:14 DEBUG Teste:13 - Lendo uma propriedade do sistema
+2017-02-16 20:30:14 INFO  PropertySingleton:21 - Carregando as propriedades
+2017-02-16 20:30:14 INFO  PropertySingleton:25 - Carregando as propriedades
+2017-02-16 20:30:14 TRACE PropertySingleton:34 - Retornando as propriedades

@@ -1,0 +1,8 @@
+2017-02-16 20:39:42 WARN  TerminalConsulta:21 - Inicio da aplicacao
+2017-02-16 20:39:44 DEBUG TerminalConsulta:37 - Produto pesquisado - codigo: 684
+2017-02-16 20:39:44 ERROR TerminalConsulta:47 - Codigo de produto inexistente
+2017-02-16 20:39:44 WARN  TerminalConsulta:64 - Fim da aplicacao
+2017-02-16 20:41:13 WARN  TerminalConsulta:21 - Inicio da aplicacao
+2017-02-16 20:41:19 DEBUG TerminalConsulta:37 - Produto pesquisado - codigo: 445
+2017-02-16 20:41:19 ERROR TerminalConsulta:47 - Codigo de produto inexistente
+2017-02-16 20:41:19 WARN  TerminalConsulta:64 - Fim da aplicacao

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.fiap.loja.bo.EstoqueBO"/>
+<fullyQualifiedTypeName name="com.fiap.loja.to.ProdutoTO"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.fiap.loja.config.PropertySingleton"/>
+<fullyQualifiedTypeName name="org.apache.log4j.spi.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.spi.LoggerFactoryBinder"/>
+<fullyQualifiedTypeName name="br.com.fiap.property.PropertySingleton"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.fiap.loja.TerminalConsulta"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+</qualifiedTypeNameHistroy>
