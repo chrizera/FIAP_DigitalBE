@@ -280,3 +280,365 @@ java.lang.NoClassDefFoundError: Could not initialize class com.ibm.etools.javaee
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SESSION 2017-02-17 21:24:02.974 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-17 21:24:53.054
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\logonrm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-17 21:24:53.132
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.etools.javaee.core.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-17 21:24:53.210
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\TerminalConsulta.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-17 21:24:53.225
+!MESSAGE File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\TerminalConsulta.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-17 21:24:53.512
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\bo\EstoqueBO.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-17 21:24:53.512
+!MESSAGE File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\bo\EstoqueBO.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-17 21:24:53.512
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\config\PropertySingleton.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-17 21:24:53.512
+!MESSAGE File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\config\PropertySingleton.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-17 21:24:53.512
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\to\ProdutoTO.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-17 21:24:53.528
+!MESSAGE File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\02-loja-app\bin\com\fiap\loja\to\ProdutoTO.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-17 21:25:05.988
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\03-DesignPatterns\bin\br\com\fiap\property\PropertySingleton.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-17 21:25:05.988
+!MESSAGE File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\03-DesignPatterns\bin\br\com\fiap\property\PropertySingleton.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-17 21:25:06.030
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\03-DesignPatterns\bin\br\com\fiap\teste\Teste.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-17 21:25:06.030
+!MESSAGE File not found: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\03-DesignPatterns\bin\br\com\fiap\teste\Teste.class.
+
+!ENTRY org.jboss.tools.central 4 0 2017-02-17 21:25:12.757
+!MESSAGE Unable to open C:\opensource\eclipse-neon\plugins\org.jboss.tools.central_2.1.1.v20160808-1619\resources\jbosstools-central-webpage.zip
+!STACK 0
+java.io.IOException: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.jboss.tools.central\central\dff8cd5\index.html can not be found
+	at org.jboss.tools.central.internal.CentralHelper.extractIfNeeded(CentralHelper.java:203)
+	at org.jboss.tools.central.internal.CentralHelper.getCentralPageUrl(CentralHelper.java:122)
+	at org.jboss.tools.central.internal.CentralHelper.getCentralUrl(CentralHelper.java:60)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage$5.run(GettingStartedHtmlPage.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.tools.foundation.core 8 0 2017-02-17 21:25:12.846
+!MESSAGE Operation canceled
+
+!ENTRY org.jboss.tools.project.examples 2 0 2017-02-17 21:25:12.847
+!MESSAGE Invalid URL: http://download.jboss.org/jbosstools/examples/4/4/project-examples-category.xml
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 1 4 2017-02-17 21:25:13.468
+!MESSAGE Unknown problem status found in remote problems history: CONFIRMED ; version: 2.0.3.v20160905-1331
+!STACK 0
+org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException
+	at org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException.newTrace(Logs.java:387)
+	at org.eclipse.epp.logging.aeri.core.util.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory.parseProblemStatus(ServerProblemsHistory.java:193)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory.loadStatus(ServerProblemsHistory.java:164)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory.seen(ServerProblemsHistory.java:143)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory.seen(ServerProblemsHistory.java:132)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.interested(ServerConnection.java:145)
+	at org.eclipse.epp.internal.logging.aeri.ide.IDEWorkflow.getServerInterest(IDEWorkflow.java:292)
+	at org.eclipse.epp.internal.logging.aeri.ide.IDEWorkflow.doNewStatusLogged(IDEWorkflow.java:133)
+	at org.eclipse.epp.internal.logging.aeri.ide.IDEWorkflow.onNewStatusLogged(IDEWorkflow.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:80)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-17 21:56:56.291
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.cftools.branding.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-17 21:56:56.294
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.ws.st.jee.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.ui 4 0 2017-02-17 21:56:56.696
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.etools.javaee.cdi.ext.ui.
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2017-02-17 21:59:04.520
+!MESSAGE C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 1
+org.eclipse.core.runtime.CoreException: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:104)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfileByName(InternalProfileManager.java:239)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfileByName(ProfileManager.java:98)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver2(DriverUtility.java:89)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver(DriverUtility.java:83)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverRuntimeLifecycleListener.runtimeAdded(DriverRuntimeLifecycleListener.java:29)
+	at org.eclipse.wst.server.core.internal.ResourceManager.fireRuntimeEvent(ResourceManager.java:523)
+	at org.eclipse.wst.server.core.internal.ResourceManager.registerRuntime(ResourceManager.java:1204)
+	at org.eclipse.wst.server.core.internal.ResourceManager.addRuntime(ResourceManager.java:684)
+	at org.eclipse.wst.server.core.internal.Runtime.saveToMetadata(Runtime.java:131)
+	at org.eclipse.wst.server.core.internal.RuntimeWorkingCopy.save(RuntimeWorkingCopy.java:181)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil.saveRuntime(WizardTaskUtil.java:87)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil$1.performFinish(WizardTaskUtil.java:45)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.executeTask(TaskWizard.java:268)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2.run(TaskWizard.java:215)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.wst.server.ui.internal.wizard.page.WorkspaceRunnableAdapter.run(WorkspaceRunnableAdapter.java:35)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.io.FileNotFoundException: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	... 24 more
+!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2017-02-17 21:59:04.521
+!MESSAGE C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\logonrm\Desktop\FIAP_DigitalBE\Digital Business Enablement\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfileByName(InternalProfileManager.java:239)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfileByName(ProfileManager.java:98)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver2(DriverUtility.java:89)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver(DriverUtility.java:83)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverRuntimeLifecycleListener.runtimeAdded(DriverRuntimeLifecycleListener.java:29)
+	at org.eclipse.wst.server.core.internal.ResourceManager.fireRuntimeEvent(ResourceManager.java:523)
+	at org.eclipse.wst.server.core.internal.ResourceManager.registerRuntime(ResourceManager.java:1204)
+	at org.eclipse.wst.server.core.internal.ResourceManager.addRuntime(ResourceManager.java:684)
+	at org.eclipse.wst.server.core.internal.Runtime.saveToMetadata(Runtime.java:131)
+	at org.eclipse.wst.server.core.internal.RuntimeWorkingCopy.save(RuntimeWorkingCopy.java:181)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil.saveRuntime(WizardTaskUtil.java:87)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil$1.performFinish(WizardTaskUtil.java:45)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.executeTask(TaskWizard.java:268)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2.run(TaskWizard.java:215)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.wst.server.ui.internal.wizard.page.WorkspaceRunnableAdapter.run(WorkspaceRunnableAdapter.java:35)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-17 22:04:54.035
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-17 22:04:54.035
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-17 22:05:57.545
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-17 22:05:57.546
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
