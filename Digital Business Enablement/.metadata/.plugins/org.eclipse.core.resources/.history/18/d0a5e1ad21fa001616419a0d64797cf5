@@ -1,0 +1,20 @@
+package br.com.fiap.view;
+
+import org.apache.axis2.AxisFault;
+
+import br.com.fiap.bo.DisciplinaBOStub;
+
+public class TerminalConsulta {
+
+	public static void main(String[] args) {
+		//Chamar o webservice
+		try {
+			DisciplinaBOStub bo = new DisciplinaBOStub();
+
+		}
+		catch(AxisFault e) {
+			e.printStackTrace();
+		}
+	}
+
+}

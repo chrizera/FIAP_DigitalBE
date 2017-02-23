@@ -1,0 +1,20 @@
+package br.com.fiap.view;
+
+import br.com.fiap.bo.DisciplinaBOStub.CalcularPs;
+import br.com.fiap.bo.DisciplinaBOStub.CalcularPsResponse;
+
+public class ConsultarPS {
+
+	public static void main(String[] args) {
+		//Chamar o servico de calcular nota de ps necessaria
+		CalcularPs valores = new CalcularPs();
+		
+		valores.setAm(5);
+		valores.setNac(6);
+		
+		CalcularPsResponse response = new CalcularPsResponse();
+		double ps = response.get_return();
+
+	}
+
+}
