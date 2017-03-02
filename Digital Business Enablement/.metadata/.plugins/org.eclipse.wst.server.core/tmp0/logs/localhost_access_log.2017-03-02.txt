@@ -1,0 +1,15 @@
+127.0.0.1 - - [02/Mar/2017:20:54:56 -0300] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:20:54:57 -0300] "GET /05-EstoqueWS/ HTTP/1.1" 200 3552
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:20:54:57 -0300] "GET /05-EstoqueWS/axis2-web/images/asf-logo.gif HTTP/1.1" 200 5866
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:20:54:57 -0300] "GET /05-EstoqueWS/axis2-web/css/axis-style.css HTTP/1.1" 200 1636
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:20:54:57 -0300] "GET /05-EstoqueWS/axis2-web/images/axis_l.jpg HTTP/1.1" 200 12340
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:20:54:59 -0300] "GET /05-EstoqueWS/services/listServices HTTP/1.1" 200 3911
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:20:55:00 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:11 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:11 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:14 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:14 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:14 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:14 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:14 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276
+127.0.0.1 - - [02/Mar/2017:20:55:14 -0300] "GET /05-EstoqueWS/services/EstoqueBO?wsdl HTTP/1.1" 200 5276

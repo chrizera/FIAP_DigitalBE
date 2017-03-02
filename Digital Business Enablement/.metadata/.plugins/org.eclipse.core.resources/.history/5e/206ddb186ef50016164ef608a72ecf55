@@ -1,7 +1,0 @@
-package br.com.fiap.bo;
-
-public class DisciplinaBO {
-	public float calcularMedia(float am, float ps, float nac) {
-		
-	}
-}
