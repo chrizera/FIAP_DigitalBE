@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="com.fiap.loja.TerminalConsulta"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.apache.axis2.AxisFault"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularMedia"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -22,4 +21,20 @@
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularPs"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularPsResponse"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.GenericDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.GenericDAOImpl"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="br.com.fiap.factory.EntityManagerFactorySingleton"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Jogo"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.JogoDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.JogoDAOImpl"/>
+<fullyQualifiedTypeName name="org.apache.axis2.AxisFault"/>
+<fullyQualifiedTypeName name="org.apache.axis2.engine.AxisError"/>
 </qualifiedTypeNameHistroy>
