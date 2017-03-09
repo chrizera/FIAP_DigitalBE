@@ -1,0 +1,22 @@
+package br.com.fiap.view;
+
+import br.com.fiap.bo.JogoBOStub;
+import br.com.fiap.bo.JogoBOStub.Cadastrar;
+import br.com.fiap.bo.JogoBOStub.Jogo;
+
+public class ConsoleView {
+	
+	public static void main(String args[]) {
+		
+		try {
+			JogoBOStub bo = new JogoBOStub();
+			
+			Jogo jogo = new Jogo();
+			
+			
+		}
+		catch(Exception e) {
+			
+		}
+	}
+}

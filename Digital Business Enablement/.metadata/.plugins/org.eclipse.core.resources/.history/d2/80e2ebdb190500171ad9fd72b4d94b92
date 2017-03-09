@@ -1,0 +1,11 @@
+package br.com.fiap.view;
+
+import br.com.fiap.bo.JogoBOStub;
+
+public class ConsoleView {
+	
+	public static void main(String args[]) {
+		
+		JogoBOStub bo = new JogoBOStub();
+	}
+}

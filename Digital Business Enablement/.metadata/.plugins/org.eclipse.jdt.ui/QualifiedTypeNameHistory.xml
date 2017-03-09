@@ -37,4 +37,9 @@
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.JogoDAOImpl"/>
 <fullyQualifiedTypeName name="org.apache.axis2.AxisFault"/>
 <fullyQualifiedTypeName name="org.apache.axis2.engine.AxisError"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Cadastrar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.BuscarResponse"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Buscar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Jogo"/>
 </qualifiedTypeNameHistroy>
