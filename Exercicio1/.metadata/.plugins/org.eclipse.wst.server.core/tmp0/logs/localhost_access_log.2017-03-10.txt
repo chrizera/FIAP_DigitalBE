@@ -1,0 +1,15 @@
+127.0.0.1 - - [10/Mar/2017:21:56:24 -0300] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [10/Mar/2017:22:01:00 -0300] "GET /Exercicio01/ HTTP/1.1" 200 3477
+0:0:0:0:0:0:0:1 - - [10/Mar/2017:22:01:00 -0300] "GET /Exercicio01/axis2-web/css/axis-style.css HTTP/1.1" 200 1587
+0:0:0:0:0:0:0:1 - - [10/Mar/2017:22:01:00 -0300] "GET /Exercicio01/axis2-web/images/asf-logo.gif HTTP/1.1" 200 5866
+0:0:0:0:0:0:0:1 - - [10/Mar/2017:22:01:00 -0300] "GET /Exercicio01/axis2-web/images/axis_l.jpg HTTP/1.1" 200 12340
+0:0:0:0:0:0:0:1 - - [10/Mar/2017:22:01:02 -0300] "GET /Exercicio01/services/listServices HTTP/1.1" 200 3886
+0:0:0:0:0:0:0:1 - - [10/Mar/2017:22:01:05 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:37 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:37 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:41 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:41 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:41 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:41 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:41 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606
+127.0.0.1 - - [10/Mar/2017:22:01:41 -0300] "GET /Exercicio01/services/ClienteBO?wsdl HTTP/1.1" 200 8606

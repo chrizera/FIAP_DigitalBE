@@ -1,0 +1,117 @@
+package br.com.fiap.view;
+
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Label;
+
+import java.util.Calendar;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Text;
+
+import br.com.fiap.bo.ClienteBOStub;
+import br.com.fiap.bo.ClienteBOStub.CadastrarCliente;
+
+import org.eclipse.swt.widgets.DateTime;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+
+public class Tela {
+
+	protected Shell shell;
+	private Text txtNome;
+	private Label lblDataDeNascimento;
+	private Label lblEmail;
+	private Text txtEmail;
+	private Text txtCodigo;
+
+	/**
+	 * Launch the application.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try {
+			Tela window = new Tela();
+			window.open();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Open the window.
+	 */
+	public void open() {
+		Display display = Display.getDefault();
+		createContents();
+		shell.open();
+		shell.layout();
+		while (!shell.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+	}
+
+	/**
+	 * Create contents of the window.
+	 */
+	protected void createContents() {
+		shell = new Shell();
+		shell.setSize(450, 300);
+		shell.setText("SWT Application");
+		
+		Label lblNome = new Label(shell, SWT.NONE);
+		lblNome.setBounds(0, 10, 55, 15);
+		lblNome.setText("Nome");
+		
+		txtNome = new Text(shell, SWT.BORDER);
+		txtNome.setBounds(0, 31, 193, 21);
+		
+		lblDataDeNascimento = new Label(shell, SWT.NONE);
+		lblDataDeNascimento.setBounds(0, 58, 123, 15);
+		lblDataDeNascimento.setText("Data de nascimento");
+		
+		DateTime dataNascimento = new DateTime(shell, SWT.BORDER);
+		dataNascimento.setBounds(0, 79, 80, 24);
+		
+		lblEmail = new Label(shell, SWT.NONE);
+		lblEmail.setBounds(0, 109, 55, 15);
+		lblEmail.setText("E-mail");
+		
+		txtEmail = new Text(shell, SWT.BORDER);
+		txtEmail.setBounds(0, 130, 76, 21);
+		
+		Button btnCadastrar = new Button(shell, SWT.NONE);
+		btnCadastrar.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				String nome = txtNome.getText();
+				String email = txtEmail.getText();
+				
+				try {
+					ClienteBOStub stub = new ClienteBOStub();
+					CadastrarCliente cadastrar = new CadastrarCliente();
+				}
+				catch(Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		});
+		btnCadastrar.setBounds(1, 173, 75, 25);
+		btnCadastrar.setText("Cadastrar");
+		
+		Label lblCodigo = new Label(shell, SWT.NONE);
+		lblCodigo.setBounds(257, 10, 55, 15);
+		lblCodigo.setText("Codigo");
+		
+		Button btnBuscar = new Button(shell, SWT.NONE);
+		btnBuscar.setBounds(257, 58, 75, 25);
+		btnBuscar.setText("Buscar");
+		
+		txtCodigo = new Text(shell, SWT.BORDER);
+		txtCodigo.setBounds(257, 31, 76, 21);
+
+	}
+}
