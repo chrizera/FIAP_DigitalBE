@@ -1,7 +1,0 @@
-package br.com.fiap.bo;
-
-public class JogoBO {
-	public void cadastrar(Jogo jogo) {
-		
-	}
-}

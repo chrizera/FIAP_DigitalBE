@@ -1,8 +1,0 @@
-package br.com.fiap.entity;
-
-public class Jogo {
-	private int codigo;
-	private String nome;
-	private String produtora;
-	private float preco;
-}

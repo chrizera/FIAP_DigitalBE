@@ -1,0 +1,13 @@
+package br.com.fiap.to;
+
+
+public class ProdutoTO {
+
+	private int codigo;
+	
+	private String nome;
+	
+	private double preco;
+	
+	private int quantidade;
+}
