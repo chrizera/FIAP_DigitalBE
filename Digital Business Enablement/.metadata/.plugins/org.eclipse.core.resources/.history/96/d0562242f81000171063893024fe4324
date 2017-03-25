@@ -1,0 +1,9 @@
+package br.com.fiap.resource;
+
+import javax.ws.rs.Path;
+
+@Path("/atleta")
+public class AtletaResource {
+	
+	
+}

@@ -1,0 +1,5 @@
+package br.com.fiap.dao;
+
+public interface AtletaDAO extends GenericDAO<Atleta, Integer>{
+
+}

@@ -1,0 +1,48 @@
+package br.com.fiap.bo;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.AtletaDAO;
+import br.com.fiap.dao.impl.AtletaDAOImpl;
+import br.com.fiap.entity.Atleta;
+import br.com.fiap.factory.EntityManagerFactorySingleton;
+
+public class AtletaBO {
+
+	private EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+	private AtletaDAO dao = new AtletaDAOImpl(em);
+	
+	public Atleta buscar(int codigo) {
+		return dao.pesquisar(codigo);
+	}
+	
+	public void cadastrar(Atleta atleta) {
+		dao.cadastrar(atleta);
+	}
+	
+	public void atualizar(Atleta atleta) {
+		dao.alterar(atleta);
+	}
+	
+	public void remover(int codigo) {
+		try {
+			dao.remover(codigo);
+
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public List<Atleta> listar() {
+		return dao.listar();
+	}
+	
+	public void salvar() {
+		dao.salvar();
+	}
+	
+	
+}

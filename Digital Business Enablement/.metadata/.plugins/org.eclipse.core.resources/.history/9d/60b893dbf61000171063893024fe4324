@@ -1,0 +1,13 @@
+package br.com.fiap.bo;
+
+import br.com.fiap.dao.AtletaDAO;
+import br.com.fiap.entity.Atleta;
+
+public class AtletaBO {
+
+	private AtletaDAO dao;
+	
+	public Atleta buscar() {
+		
+	}
+}
