@@ -1,0 +1,22 @@
+package br.com.fiap.view;
+
+import java.util.List;
+
+import br.com.fiap.repository.ProdutoRepository;
+import br.com.fiap.to.ProdutoTO;
+
+public class ListarView {
+
+	public static void main(String[] args) {
+
+		ProdutoRepository repository = new ProdutoRepository();
+		
+		try {
+			List<ProdutoTO> lista = repository.listar();
+		}
+		catch(WebServiceException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

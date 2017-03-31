@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;br.com.fiap.to&apos; to &apos;14-WebservicesRestful-client/src&apos;&#x0D;&#x0A;- Original project: &apos;12-WebservicesRestfull-server&apos;&#x0D;&#x0A;- Destination element: &apos;14-WebservicesRestful-client/src&apos;&#x0D;&#x0A;- Original element: &apos;12-WebservicesRestfull-server/src/br.com.fiap.to&apos;" description="Copy package" destination="=14-WebservicesRestful-client/src" element1="/src&lt;br.com.fiap.to" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1490916751444" version="1.0"/>
+</session>

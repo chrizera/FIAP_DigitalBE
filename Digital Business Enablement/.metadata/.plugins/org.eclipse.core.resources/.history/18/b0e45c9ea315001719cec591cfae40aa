@@ -1,0 +1,32 @@
+package br.com.fiap.repository;
+
+import java.util.List;
+
+import javax.ws.rs.core.MediaType;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+import br.com.fiap.exception.WebServiceException;
+import br.com.fiap.to.ProdutoTO;
+
+public class ProdutoRepository {
+
+	private Client client = Client.create();
+	
+	private static final String URL = "http://localhost:8080/12-WebservicesRestfull-server/rest/produto/";
+	
+	public List<ProdutoTO> listar() throws WebServiceException {
+		WebResource resource = client.resource(URL);
+		ClientResponse response = resource.accept(MediaType.APPLICATION_JSON).get(ClientResponse.class);
+		
+		if(response.getStatus() != 200) {
+			throw new WebServiceException("HTTP Status: " + response.getStatus());
+		}
+		
+		ProdutoTO []array = response.getEntity(ProdutoTO[].class);
+		
+		
+	}
+}

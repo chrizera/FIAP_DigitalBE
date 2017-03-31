@@ -26,6 +26,9 @@ public class AtletaBO {
 		catch(Exception e) {
 			e.printStackTrace();
 		}
+		finally {
+			em.close();
+		}
 	}
 	
 	public void atualizar(Atleta atleta) {
@@ -35,6 +38,9 @@ public class AtletaBO {
 		}
 		catch(Exception e) {
 			e.printStackTrace();
+		}
+		finally {
+			em.close();
 		}
 	}
 	
@@ -46,12 +52,14 @@ public class AtletaBO {
 		catch(Exception e) {
 			e.printStackTrace();
 		}
+		finally {
+			em.close();
+		}
 	}
 	
 	public List<Atleta> listar() {
 		return dao.listar();
 	}
-	
 	
 	
 }

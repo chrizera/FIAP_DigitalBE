@@ -1,5 +1,7 @@
 package br.com.fiap.resource;
 
+import java.util.List;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -35,10 +37,12 @@ public class AtletaResource {
 		bo.cadastrar(atleta);
 		
 		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
-		
+		//UriBuilder uri = UriBuilder.fromPath(uriInfo.getPath());
 		builder.path(Integer.toString(atleta.getCodigo()));
+		//uri.path(String.valueOf(atleta.getCodigo()));
 		
 		return Response.created(builder.build()).build();
+		//return Response.created(uri.build()).build();
 	}
 	
 	@PUT
@@ -55,5 +59,11 @@ public class AtletaResource {
 	@Path("/{id}")
 	public void remover(@PathParam("id") int codigo) {
 		bo.remover(codigo);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Atleta> listar() {
+		return bo.listar();
 	}
 }

@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.fiap.loja.config.PropertySingleton"/>
-<fullyQualifiedTypeName name="org.apache.log4j.spi.LoggerFactory"/>
-<fullyQualifiedTypeName name="org.slf4j.spi.LoggerFactoryBinder"/>
-<fullyQualifiedTypeName name="br.com.fiap.property.PropertySingleton"/>
-<fullyQualifiedTypeName name="java.util.logging.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-<fullyQualifiedTypeName name="com.fiap.loja.TerminalConsulta"/>
-<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularMedia"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularMediaResponse"/>
@@ -30,7 +20,6 @@
 <fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Buscar"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Jogo"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
-<fullyQualifiedTypeName name="br.com.fiap.to.ProdutoTO"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.ProdutoBO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -43,10 +32,7 @@
 <fullyQualifiedTypeName name="br.com.fiap.factory.EntityManagerFactorySingleton"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.AtletaDAOImpl"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.AtletaBO"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Atleta"/>
-<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
-<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.UriInfo"/>
 <fullyQualifiedTypeName name="javax.ws.rs.POST"/>
@@ -54,10 +40,24 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
-<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
 <fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
 <fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.AtletaDAO"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.Client"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.WebResource"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.ClientResponse"/>
+<fullyQualifiedTypeName name="javax.xml.ws.WebServiceException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="br.com.fiap.repository.ProdutoRepository"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.fiap.to.ProdutoTO"/>
+<fullyQualifiedTypeName name="br.com.fiap.exception.WebServiceException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
