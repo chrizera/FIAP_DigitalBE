@@ -5177,3 +5177,140 @@
 2017-04-06 20:17:23,450 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\15-WebservicesRestful-client-banco\src\test\resources
 2017-04-06 20:34:06,624 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5536b11e{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
 2017-04-06 20:34:06,639 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@22017161{/help,null,UNAVAILABLE}
+2017-04-06 20:35:16,666 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:35:16,713 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\12-WebservicesRestfull-server\src\main\resources
+2017-04-06 20:35:16,717 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:35:16,718 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\12-WebservicesRestfull-server\src\test\resources
+2017-04-06 20:35:17,804 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @27305ms
+2017-04-06 20:35:18,194 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-04-06 20:35:18,418 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2674e915{/help,null,AVAILABLE}
+2017-04-06 20:35:18,438 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6aadb93f{HTTP/1.1,[http/1.1]}{127.0.0.1:12015}
+2017-04-06 20:35:18,440 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @27940ms
+2017-04-06 20:35:21,898 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:35:21,903 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\13-WebservicesRestful-server-banco\src\main\resources
+2017-04-06 20:35:21,907 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:35:21,908 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\13-WebservicesRestful-server-banco\src\test\resources
+2017-04-06 20:37:54,794 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:37:54,795 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\12-WebservicesRestfull-server\src\main\resources
+2017-04-06 20:37:54,796 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:37:54,799 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\12-WebservicesRestfull-server\src\test\resources
+2017-04-06 20:49:38,686 [ModalContext] WARN  o.e.m.j.i.JavaProjectConversionParticipant - 16-JSF-Introducao has multiple source entries, this is not supported yet
+2017-04-06 20:49:40,977 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-fr/9.0.0.M13/tomcat-i18n-fr-9.0.0.M13.jar
+2017-04-06 20:49:40,977 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/9.0.0.M13/tomcat-jasper-el-9.0.0.M13.jar
+2017-04-06 20:49:40,977 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-dbcp/9.0.0.M13/tomcat-dbcp-9.0.0.M13.jar
+2017-04-06 20:49:40,978 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/9.0.0.M13/tomcat-websocket-9.0.0.M13.jar
+2017-04-06 20:49:40,982 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ha/9.0.0.M13/tomcat-catalina-ha-9.0.0.M13.jar
+2017-04-06 20:49:40,983 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/9.0.0.M13/tomcat-jasper-9.0.0.M13.jar
+2017-04-06 20:49:40,984 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/9.0.0.M13/tomcat-util-scan-9.0.0.M13.jar
+2017-04-06 20:49:40,985 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/9.0.0.M13/tomcat-jaspic-api-9.0.0.M13.jar
+2017-04-06 20:49:40,987 [Worker-16] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-tribes/9.0.0.M13/tomcat-tribes-9.0.0.M13.jar
+2017-04-06 20:49:40,988 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/9.0.0.M13/tomcat-api-9.0.0.M13.jar
+2017-04-06 20:49:40,988 [Worker-32] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/9.0.0.M13/tomcat-coyote-9.0.0.M13.jar
+2017-04-06 20:49:40,989 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket-api/9.0.0.M13/tomcat-websocket-api-9.0.0.M13.jar
+2017-04-06 20:49:40,990 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+2017-04-06 20:49:40,993 [Worker-40] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/9.0.0.M13/tomcat-util-9.0.0.M13.jar
+2017-04-06 20:49:40,996 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/9.0.0.M13/tomcat-api-9.0.0.M13.jar
+2017-04-06 20:49:41,060 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/9.0.0.M13/tomcat-catalina-ant-9.0.0.M13.jar
+2017-04-06 20:49:41,082 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-dbcp/9.0.0.M13/tomcat-dbcp-9.0.0.M13.jar
+2017-04-06 20:49:41,083 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-fr/9.0.0.M13/tomcat-i18n-fr-9.0.0.M13.jar
+2017-04-06 20:49:41,084 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/9.0.0.M13/tomcat-jasper-el-9.0.0.M13.jar
+2017-04-06 20:49:41,085 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ha/9.0.0.M13/tomcat-catalina-ha-9.0.0.M13.jar
+2017-04-06 20:49:41,086 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/9.0.0.M13/tomcat-util-scan-9.0.0.M13.jar
+2017-04-06 20:49:41,088 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/9.0.0.M13/tomcat-jaspic-api-9.0.0.M13.jar
+2017-04-06 20:49:41,090 [Worker-16] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-tribes/9.0.0.M13/tomcat-tribes-9.0.0.M13.jar
+2017-04-06 20:49:41,091 [Worker-32] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/9.0.0.M13/tomcat-coyote-9.0.0.M13.jar
+2017-04-06 20:49:41,092 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket-api/9.0.0.M13/tomcat-websocket-api-9.0.0.M13.jar
+2017-04-06 20:49:41,094 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+2017-04-06 20:49:41,096 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/9.0.0.M13/tomcat-jasper-9.0.0.M13.jar
+2017-04-06 20:49:41,097 [Worker-40] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/9.0.0.M13/tomcat-util-9.0.0.M13.jar
+2017-04-06 20:49:41,105 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/9.0.0.M13/tomcat-websocket-9.0.0.M13.jar
+2017-04-06 20:49:41,180 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/9.0.0.M13/tomcat-catalina-ant-9.0.0.M13.jar
+2017-04-06 20:49:41,200 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/9.0.0.M13/tomcat-jni-9.0.0.M13.jar
+2017-04-06 20:49:41,205 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-es/9.0.0.M13/tomcat-i18n-es-9.0.0.M13.jar
+2017-04-06 20:49:41,209 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/9.0.0.M13/tomcat-jdbc-9.0.0.M13.jar
+2017-04-06 20:49:41,211 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/9.0.0.M13/tomcat-jsp-api-9.0.0.M13.jar
+2017-04-06 20:49:41,213 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-storeconfig/9.0.0.M13/tomcat-storeconfig-9.0.0.M13.jar
+2017-04-06 20:49:41,213 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-ja/9.0.0.M13/tomcat-i18n-ja-9.0.0.M13.jar
+2017-04-06 20:49:41,214 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/9.0.0.M13/tomcat-catalina-9.0.0.M13.jar
+2017-04-06 20:49:41,305 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/9.0.0.M13/tomcat-jni-9.0.0.M13.jar
+2017-04-06 20:49:41,308 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-es/9.0.0.M13/tomcat-i18n-es-9.0.0.M13.jar
+2017-04-06 20:49:41,312 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/9.0.0.M13/tomcat-jsp-api-9.0.0.M13.jar
+2017-04-06 20:49:41,313 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/9.0.0.M13/tomcat-jdbc-9.0.0.M13.jar
+2017-04-06 20:49:41,315 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-ja/9.0.0.M13/tomcat-i18n-ja-9.0.0.M13.jar
+2017-04-06 20:49:41,316 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/9.0.0.M13/tomcat-catalina-9.0.0.M13.jar
+2017-04-06 20:49:41,331 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-storeconfig/9.0.0.M13/tomcat-storeconfig-9.0.0.M13.jar
+2017-04-06 20:49:42,680 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 16-JSF-Introducao:16-JSF-Introducao:0.0.1-SNAPSHOT @ D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\pom.xml.
+2017-04-06 20:49:43,360 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16-JSF-Introducao/src
+2017-04-06 20:49:43,362 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /16-JSF-Introducao/src/test/java because it overlaps with /16-JSF-Introducao/src
+2017-04-06 20:49:44,066 [Worker-35] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-04-06 20:49:47,185 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 16-JSF-Introducao:16-JSF-Introducao:0.0.1-SNAPSHOT @ D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\pom.xml.
+2017-04-06 20:49:47,312 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16-JSF-Introducao/src
+2017-04-06 20:49:47,313 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /16-JSF-Introducao/src/test/java because it overlaps with /16-JSF-Introducao/src
+2017-04-06 20:49:51,677 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 16-JSF-Introducao
+2017-04-06 20:49:51,707 [Worker-35] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2017-04-06 20:49:51,879 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:49:51,881 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:49:51,882 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:49:51,883 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:49:51,883 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 16-JSF-Introducao
+2017-04-06 20:49:51,886 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 16-JSF-Introducao
+2017-04-06 20:49:51,891 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2017-04-06 20:49:51,920 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:24,349 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 16-JSF-Introducao:16-JSF-Introducao:0.0.1-SNAPSHOT @ D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\pom.xml.
+2017-04-06 20:50:25,053 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.pom
+2017-04-06 20:50:25,323 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.pom
+2017-04-06 20:50:25,475 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.pom
+2017-04-06 20:50:25,623 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.pom
+2017-04-06 20:50:25,764 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.jar
+2017-04-06 20:50:27,534 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.jar
+2017-04-06 20:50:27,688 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar
+2017-04-06 20:50:32,847 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar
+2017-04-06 20:50:33,293 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:33,294 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:50:33,295 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:33,295 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:50:33,296 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 16-JSF-Introducao
+2017-04-06 20:50:33,296 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 16-JSF-Introducao
+2017-04-06 20:50:33,299 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:35,317 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:35,318 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:50:35,319 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:35,320 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:50:57,555 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:57,556 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:50:57,558 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:50:57,559 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:51:03,848 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:51:03,850 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:51:03,851 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:51:03,852 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:51:10,040 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:51:10,041 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:51:10,043 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:51:10,044 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:53:07,647 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:53:07,648 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:53:07,649 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:53:07,650 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:54:23,646 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:54:23,647 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:54:23,648 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:54:23,648 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:54:41,005 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:54:41,006 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:54:41,007 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:54:41,008 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:57:10,329 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:57:10,330 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:57:10,331 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:57:10,332 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:57:12,451 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:57:12,452 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:57:12,453 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:57:12,454 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:57:25,009 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:57:25,010 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\main\resources
+2017-04-06 20:57:25,011 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 20:57:25,012 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_DigitalBE\Digital Business Enablement\16-JSF-Introducao\src\test\resources
+2017-04-06 20:58:45,070 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6aadb93f{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-04-06 20:58:45,095 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2674e915{/help,null,UNAVAILABLE}

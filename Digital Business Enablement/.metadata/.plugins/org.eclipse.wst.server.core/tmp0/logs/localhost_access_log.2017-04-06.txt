@@ -31,3 +31,8 @@
 127.0.0.1 - - [06/Apr/2017:20:17:28 -0300] "DELETE /13-WebservicesRestful-server-banco/rest/atleta/2 HTTP/1.1" 204 -
 127.0.0.1 - - [06/Apr/2017:20:17:32 -0300] "GET /13-WebservicesRestful-server-banco/rest/atleta/ HTTP/1.1" 200 129
 127.0.0.1 - - [06/Apr/2017:20:17:32 -0300] "GET /13-WebservicesRestful-server-banco/rest/atleta/1 HTTP/1.1" 200 64
+127.0.0.1 - - [06/Apr/2017:20:55:45 -0300] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [06/Apr/2017:20:55:46 -0300] "GET /16-JSF-Introducao/faces/login.xhtml HTTP/1.1" 200 703
+0:0:0:0:0:0:0:1 - - [06/Apr/2017:20:55:49 -0300] "POST /16-JSF-Introducao/faces/login.xhtml;jsessionid=DB08814F49C77582B786B8C333D4AFC7 HTTP/1.1" 200 667
+0:0:0:0:0:0:0:1 - - [06/Apr/2017:20:55:55 -0300] "POST /16-JSF-Introducao/faces/login.xhtml HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [06/Apr/2017:20:57:28 -0300] "GET /16-JSF-Introducao/faces/login.xhtml HTTP/1.1" 200 777
