@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.rmi.RemoteException"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularMediaResponse"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularPs"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub.CalcularPsResponse"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.DisciplinaBOStub"/>
@@ -19,7 +16,6 @@
 <fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.BuscarResponse"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Buscar"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.JogoBOStub.Jogo"/>
-<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.ProdutoBO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -31,7 +27,6 @@
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="br.com.fiap.factory.EntityManagerFactorySingleton"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.AtletaDAOImpl"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.AtletaBO"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Atleta"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.UriInfo"/>
@@ -49,15 +44,20 @@
 <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
 <fullyQualifiedTypeName name="javax.ws.rs.client.Client"/>
+<fullyQualifiedTypeName name="br.com.fiap.repository.ProdutoRepository"/>
+<fullyQualifiedTypeName name="br.com.fiap.to.ProdutoTO"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
 <fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.sun.jersey.api.client.WebResource"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 <fullyQualifiedTypeName name="com.sun.jersey.api.client.ClientResponse"/>
 <fullyQualifiedTypeName name="javax.xml.ws.WebServiceException"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="br.com.fiap.repository.ProdutoRepository"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="br.com.fiap.to.ProdutoTO"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.AtletaBO"/>
+<fullyQualifiedTypeName name="br.com.fiap.to.Atleta"/>
+<fullyQualifiedTypeName name="br.com.fiap.repository.AtletaRepository"/>
 <fullyQualifiedTypeName name="br.com.fiap.exception.WebServiceException"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

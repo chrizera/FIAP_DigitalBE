@@ -1,0 +1,11 @@
+package br.com.fiap.view;
+
+import br.com.fiap.repository.AtletaRepository;
+
+public class BuscaTeste {
+
+	public static void main(String[] args) {
+		AtletaRepository repository = new AtletaRepository();
+	}
+
+}

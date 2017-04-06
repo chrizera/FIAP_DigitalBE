@@ -1,0 +1,13 @@
+package br.com.fiap.view;
+
+import br.com.fiap.repository.AtletaRepository;
+
+class AtualizarTeste {
+
+	public static void main(String[] args) {
+		AtletaRepository repository = new AtletaRepository();
+		
+		
+	}
+
+}

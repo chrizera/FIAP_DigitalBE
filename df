@@ -1,0 +1,71 @@
+[33mcommit f6b44f12a7674f73b65552807600e29a8aaa9b64[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Thu Mar 30 21:00:20 2017 -0300
+
+    Add the client side example
+
+[33mcommit b75c58290909743d756d3f0be2a64ed38488dbe8[m
+Author: Christian Perrone <chris-perrone@hotmail.com>
+Date:   Fri Mar 24 22:53:04 2017 -0300
+
+    Add review project of get, post, put and delete
+
+[33mcommit 74dd15bb0381264956ea0b8c5ac88cbbe30ce2db[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Thu Mar 23 20:58:21 2017 -0300
+
+    Configure the new project
+
+[33mcommit d6955363580f06058545210b4fdb088fd405ffe3[m
+Author: Christian Perrone <chris-perrone@hotmail.com>
+Date:   Fri Mar 17 22:51:49 2017 -0300
+
+    Add an example creating a restful api
+
+[33mcommit 340238627f68dc44514aafe403be377f34574c99[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Fri Mar 10 22:46:02 2017 -0300
+
+    Start the exercise to train provider,requester and desktop application
+
+[33mcommit 5c71a7e98dcbd89edc2054e00647d9ff9664c613[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Thu Mar 9 20:55:23 2017 -0300
+
+    Create a project using the interface
+
+[33mcommit aa11db08e56c9d6cc24435554753fef4ea353ddd[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Fri Mar 3 22:45:45 2017 -0300
+
+    Add example that integrates backend and webservices
+
+[33mcommit 16c1f0088ce495a9dd49c5269de798ba8ffb8ac1[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Thu Mar 2 20:57:09 2017 -0300
+
+    Integrate the web service provider and requester in examples
+
+[33mcommit c0b04883f0e6614128c233416ef95cce7f2b0679[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Thu Feb 23 20:57:34 2017 -0300
+
+    Add the webservice provider class
+
+[33mcommit 9d9bd3845db4004f7ac1ebe2146efbf2e7abf500[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Fri Feb 17 22:45:46 2017 -0200
+
+    Add the webservice introduction project
+
+[33mcommit 5f3b9ded277ddacbd82c152822bc22b1e97fec2a[m
+Author: logonrm <chris-perrone@hotmail.com>
+Date:   Thu Feb 16 20:46:04 2017 -0200
+
+    Created the projects
+
+[33mcommit 40f8fd08efe393a4a86a0a39c55113e59c4f2cfb[m
+Author: Christian <chris-perrone@hotmail.com>
+Date:   Thu Feb 16 19:16:29 2017 -0200
+
+    Initial commit

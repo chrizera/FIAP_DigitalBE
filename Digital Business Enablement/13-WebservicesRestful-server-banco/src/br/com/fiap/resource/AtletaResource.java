@@ -22,7 +22,7 @@ import br.com.fiap.entity.Atleta;
 @Path("/atleta")
 public class AtletaResource {
 	
-	private AtletaBO bo;
+	private AtletaBO bo = new AtletaBO();
 	
 	@GET
 	@Path("/{id}")
