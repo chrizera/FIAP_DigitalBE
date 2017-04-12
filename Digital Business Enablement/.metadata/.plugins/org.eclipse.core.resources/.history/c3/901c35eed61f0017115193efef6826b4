@@ -1,0 +1,32 @@
+package br.com.fiap.beans;
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class AtletaBean {
+	
+	private String nome;
+	private String modalidade;
+	private int ranking;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getModalidade() {
+		return modalidade;
+	}
+	public void setModalidade(String modalidade) {
+		this.modalidade = modalidade;
+	}
+	public int getRanking() {
+		return ranking;
+	}
+	public void setRanking(int ranking) {
+		this.ranking = ranking;
+	}
+	
+	
+	
+}

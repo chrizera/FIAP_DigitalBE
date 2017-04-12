@@ -93,15 +93,26 @@
    <linked-el length="23" name="%0" offset="573" path="%1"/>
    <linked-el length="21" name="%0" offset="439" path="%1"/>
    <linked-el length="21" name="%0" offset="522" path="%1"/>
-   <linked-el length="23" name="%2" offset="573" path="%1"/>
-   <linked-el length="21" name="%2" offset="439" path="%1"/>
-   <linked-el length="21" name="%2" offset="522" path="%1"/>
+   <linked-el length="20" name="%2" offset="590" path="%3"/>
+   <linked-el length="17" name="%2" offset="730" path="%3"/>
+   <linked-el length="18" name="%2" offset="480" path="%3"/>
+   <linked-el length="24" name="%2" offset="658" path="%3"/>
+   <linked-el length="23" name="%4" offset="573" path="%1"/>
+   <linked-el length="21" name="%4" offset="439" path="%1"/>
+   <linked-el length="21" name="%4" offset="522" path="%1"/>
+   <linked-el length="20" name="%5" offset="590" path="%3"/>
+   <linked-el length="17" name="%5" offset="730" path="%3"/>
+   <linked-el length="18" name="%5" offset="480" path="%3"/>
+   <linked-el length="24" name="%5" offset="658" path="%3"/>
   </el>
  </validation>
  <aliases>
   <alias path="/16-JSF-Introducao/WebContent/login.xhtml" value="%1"/>
   <alias path="loginBean" value="%0"/>
-  <alias path="/16-JSF-Introducao/src/br/com/fiap/beans/LoginBean.java" value="%2"/>
+  <alias path="/16-JSF-Introducao/src/br/com/fiap/beans/ImcBean.java" value="%2"/>
+  <alias path="/16-JSF-Introducao/src/br/com/fiap/beans/LoginBean.java" value="%4"/>
+  <alias path="/16-JSF-Introducao/WebContent/imc.xhtml" value="%3"/>
+  <alias path="imcBean" value="%5"/>
  </aliases>
  <includes/>
  <uris>
