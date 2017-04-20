@@ -79,7 +79,6 @@
   <path value="C:/opensource/ApacheTomcat9/lib/catalina-storeconfig.jar"/>
   <path value="C:/opensource/ApacheTomcat9/lib/tomcat-coyote.jar"/>
   <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar"/>
-  <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
   <path value="/17-JSF-WebserviceRestful-client-banco/WebContent/WEB-INF/faces-config.xml">
    <libraries>
     <library class="faces-config">
@@ -88,6 +87,7 @@
     </library>
    </libraries>
   </path>
+  <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
   <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.25.1/jersey-media-json-jackson-2.25.1.jar"/>
   <path value="C:/opensource/ApacheTomcat9/lib/catalina.jar"/>
   <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"/>
@@ -111,27 +111,40 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="31" name="%0" offset="761" path="%1"/>
-   <linked-el length="34" name="%0" offset="611" path="%1"/>
-   <linked-el length="28" name="%0" offset="468" path="%1"/>
-   <linked-el length="28" name="%2" offset="856" path="%1"/>
-   <linked-el length="31" name="%2" offset="761" path="%1"/>
-   <linked-el length="34" name="%2" offset="611" path="%1"/>
-   <linked-el length="28" name="%2" offset="468" path="%1"/>
-   <linked-el length="28" name="%3" offset="856" path="%1"/>
-   <linked-el length="31" name="%3" offset="761" path="%1"/>
-   <linked-el length="34" name="%3" offset="611" path="%1"/>
-   <linked-el length="28" name="%3" offset="468" path="%1"/>
+   <linked-el length="26" name="%0" offset="567" path="%1"/>
+   <linked-el length="31" name="%2" offset="1095" path="%3"/>
+   <linked-el length="38" name="%2" offset="665" path="%1"/>
+   <linked-el length="28" name="%2" offset="708" path="%3"/>
+   <linked-el length="41" name="%2" offset="920" path="%1"/>
+   <linked-el length="44" name="%2" offset="791" path="%1"/>
+   <linked-el length="34" name="%2" offset="898" path="%3"/>
+   <linked-el length="31" name="%4" offset="1095" path="%3"/>
+   <linked-el length="28" name="%4" offset="1219" path="%3"/>
+   <linked-el length="28" name="%4" offset="708" path="%3"/>
+   <linked-el length="34" name="%4" offset="898" path="%3"/>
+   <linked-el length="31" name="%5" offset="1095" path="%3"/>
+   <linked-el length="28" name="%5" offset="1219" path="%3"/>
+   <linked-el length="28" name="%5" offset="708" path="%3"/>
+   <linked-el length="34" name="%5" offset="898" path="%3"/>
+   <linked-el length="38" name="%6" offset="665" path="%1"/>
+   <linked-el length="41" name="%6" offset="920" path="%1"/>
+   <linked-el length="26" name="%6" offset="567" path="%1"/>
+   <linked-el length="44" name="%6" offset="791" path="%1"/>
   </el>
  </validation>
  <aliases>
   <alias
-   path="/17-JSF-WebserviceRestful-client-banco/WebContent/cadastrar.xhtml" value="%1"/>
+   path="/17-JSF-WebserviceRestful-client-banco/src/br/com/fiap/beans/ListaAtletaBean.java" value="%0"/>
   <alias
-   path="/17-JSF-WebserviceRestful-client-banco/src/br/com/fiap/to/Atleta.java" value="%0"/>
+   path="/17-JSF-WebserviceRestful-client-banco/WebContent/cadastrar.xhtml" value="%3"/>
   <alias
-   path="/17-JSF-WebserviceRestful-client-banco/src/br/com/fiap/beans/AtletaBean.java" value="%2"/>
-  <alias path="atletaBean" value="%3"/>
+   path="/17-JSF-WebserviceRestful-client-banco/src/br/com/fiap/to/Atleta.java" value="%2"/>
+  <alias
+   path="/17-JSF-WebserviceRestful-client-banco/src/br/com/fiap/beans/AtletaBean.java" value="%4"/>
+  <alias path="atletaBean" value="%5"/>
+  <alias path="listaAtletaBean" value="%6"/>
+  <alias
+   path="/17-JSF-WebserviceRestful-client-banco/WebContent/listaAtleta.xhtml" value="%1"/>
  </aliases>
  <includes/>
  <uris>

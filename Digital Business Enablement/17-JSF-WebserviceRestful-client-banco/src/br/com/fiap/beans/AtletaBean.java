@@ -1,6 +1,8 @@
 package br.com.fiap.beans;
 import javax.annotation.PostConstruct;
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
 
 import br.com.fiap.exception.WebServiceException;
 import br.com.fiap.repository.AtletaRepository;
@@ -26,13 +28,18 @@ public class AtletaBean {
 		this.atleta = atleta;
 	}
 	
-	public void cadastrar(){		
+	public void cadastrar(){
+		FacesMessage msg;
 		try {
 			repository.cadastrar(atleta);
+			msg = new FacesMessage("Atleta cadastrado");
 		}
 		catch(WebServiceException e) {
 			e.printStackTrace();
+			msg = new FacesMessage("Erro");
+			msg.setSeverity(FacesMessage.SEVERITY_ERROR);
 		}
+		FacesContext.getCurrentInstance().addMessage(null, msg);
 	}
 	
 }
