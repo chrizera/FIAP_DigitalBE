@@ -1,0 +1,9 @@
+127.0.0.1 - - [11/May/2017:19:41:25 -0300] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [11/May/2017:19:41:35 -0300] "GET /19-JSF-JPA/faces/atleta.xhtml HTTP/1.1" 200 3020
+0:0:0:0:0:0:0:1 - - [11/May/2017:19:41:35 -0300] "GET /19-JSF-JPA/faces/javax.faces.resource/bootstrap.min.css;jsessionid=8FE860A6D3AE4FCDF2126CE66D91EBB7?ln=css HTTP/1.1" 200 121330
+0:0:0:0:0:0:0:1 - - [11/May/2017:19:41:46 -0300] "GET /19-JSF-JPA/faces/atleta.xhtml HTTP/1.1" 200 3020
+0:0:0:0:0:0:0:1 - - [11/May/2017:19:41:46 -0300] "GET /19-JSF-JPA/faces/javax.faces.resource/bootstrap.min.css;jsessionid=1976DDA7AFA98F3DF29609F69C6F99D3?ln=css HTTP/1.1" 200 121330
+0:0:0:0:0:0:0:1 - - [11/May/2017:19:41:47 -0300] "GET /favicon.ico HTTP/1.1" 404 1022
+127.0.0.1 - - [11/May/2017:19:58:15 -0300] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [11/May/2017:19:58:19 -0300] "GET /19-JSF-JPA/faces/atleta.xhtml HTTP/1.1" 500 25764
+0:0:0:0:0:0:0:1 - - [11/May/2017:20:20:59 -0300] "GET /19-JSF-JPA/faces/atleta.xhtml HTTP/1.1" 500 25764

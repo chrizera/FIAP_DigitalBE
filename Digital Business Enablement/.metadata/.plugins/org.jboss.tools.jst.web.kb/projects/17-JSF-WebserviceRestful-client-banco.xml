@@ -79,6 +79,7 @@
   <path value="C:/opensource/ApacheTomcat9/lib/catalina-storeconfig.jar"/>
   <path value="C:/opensource/ApacheTomcat9/lib/tomcat-coyote.jar"/>
   <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar"/>
+  <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
   <path value="/17-JSF-WebserviceRestful-client-banco/WebContent/WEB-INF/faces-config.xml">
    <libraries>
     <library class="faces-config">
@@ -87,7 +88,6 @@
     </library>
    </libraries>
   </path>
-  <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
   <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.25.1/jersey-media-json-jackson-2.25.1.jar"/>
   <path value="C:/opensource/ApacheTomcat9/lib/catalina.jar"/>
   <path value="C:/opensource/eclipse-neon/opensource/Maven-Dependencies/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"/>
