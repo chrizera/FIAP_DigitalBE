@@ -1,0 +1,6 @@
+page_title = Cadastro de Atleta
+lbl_name = Nome
+lbl_date = Data de nascimento
+lbl_ranking = Ranking
+lbl_mod = Modalidade
+btn_save = Salvar

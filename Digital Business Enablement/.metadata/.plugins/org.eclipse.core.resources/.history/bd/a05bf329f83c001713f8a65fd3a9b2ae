@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<ui:composition template="_template.xhtml">
+		<ui:define name="conteudo">
+		<f:loadBundle basename="br.com.fiap.bundle.atleta" var="i"/>
+			<h1>#{i.page_title_list}</h1>
+	<h:messages styleClass="alert alert-success"/>
+	<h:dataTable value="#{listaAtletaBean.atletas}" var="a" styleClass="table">
+		<h:column>
+			<f:facet name="header">Nome</f:facet>
+			#{a.nome}
+		</h:column>
+		<h:column>
+			<f:facet name="header">Data Nascimento</f:facet>
+			<h:outputText value="#{a.dataNascimento.time}" >
+				<f:convertDateTime pattern="dd/MM/yyyy"/>
+			</h:outputText>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Modalidade</f:facet>
+			#{a.modalidade}
+		</h:column>
+		<h:column>
+			<f:facet name="header">Ranking</f:facet>
+			#{a.ranking}
+		</h:column>
+		<h:column>
+			<h:form>
+				<h:commandButton action="atleta" value="Editar" 
+							styleClass="btn btn-warning btn-sm"
+							style="margin-right:10px;">
+					<f:setPropertyActionListener value="#{a}"
+							 target="#{atletaBean.atleta}" />
+				</h:commandButton>
+				<h:commandButton value="Excluir" styleClass="btn btn-danger btn-sm"
+					action="#{listaAtletaBean.excluir(a.codigo)}" />
+			</h:form>
+		</h:column>
+	</h:dataTable>
+		</ui:define>
+	</ui:composition>
+</html>

@@ -1,0 +1,5 @@
+msg_add_success = Registrado
+msg_edit_success = Actualizado
+
+javax.faces.validator.LongRangeValidator.NOT_IN_RANGE= Valor deve estar entre {0} e {1}.
+javax.faces.component.UIInput.REQUIRED= Campo obrigatório.

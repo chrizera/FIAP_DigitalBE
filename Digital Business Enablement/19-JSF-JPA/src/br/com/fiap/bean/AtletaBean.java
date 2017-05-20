@@ -1,13 +1,18 @@
 package br.com.fiap.bean;
 
+import java.util.Calendar;
+
 import javax.annotation.PostConstruct;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
+import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
+import javax.faces.validator.ValidatorException;
 
 import br.com.fiap.bo.AtletaBO;
 import br.com.fiap.entity.Atleta;
 import br.com.fiap.exception.DBException;
+import br.com.fiap.util.BundleUtil;
 
 @ManagedBean
 public class AtletaBean {
@@ -19,18 +24,34 @@ public class AtletaBean {
 	@PostConstruct
 	private void init(){
 		atleta = new Atleta();
+		atleta.setDataNascimento(Calendar.getInstance());
 		bo = new AtletaBO();
+	}
+	
+	//Método para validação customizada do nome
+	public void validarNome(FacesContext context, UIComponent 
+			component, Object value) throws ValidatorException{
+		//recupera o valor que será validado
+		String nome = value.toString();
+		//validar se o nome é composto
+		if (!nome.trim().contains(" ")){
+			throw new ValidatorException(
+				new FacesMessage("O nome deve ser completo"));
+		}
 	}
 	
 	public String cadastrar(){
 		FacesMessage msg;
+		FacesContext context = FacesContext.getCurrentInstance();
 		try {
 			if (atleta.getCodigo() == 0){
 				bo.cadastrar(atleta);
-				msg = new FacesMessage("Atleta cadastrado!");
+				String mensagem = BundleUtil.getMessageResourceString(context.getApplication().getMessageBundle(), "msg_add_success", null, context.getViewRoot().getLocale());
+				msg = new FacesMessage(mensagem);
 			}else{
 				bo.atualizar(atleta);
-				msg = new FacesMessage("Atleta atualizado!");				
+				String mensagem = BundleUtil.getMessageResourceString(context.getApplication().getMessageBundle(), "msg_edit_success", null, context.getViewRoot().getLocale());
+				msg = new FacesMessage(mensagem);				
 			}
 		} catch (DBException e) {
 			e.printStackTrace();

@@ -1,0 +1,6 @@
+page_title = Athlete registration
+lbl_name = Name
+lbl_date = Birthday date
+lbl_ranking = Ranking
+lbl_mod = Modality
+btn_save = Save

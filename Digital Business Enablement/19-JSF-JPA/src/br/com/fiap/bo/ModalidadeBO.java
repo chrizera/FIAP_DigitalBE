@@ -5,8 +5,11 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 
+import br.com.fiap.dao.AtletaDAO;
 import br.com.fiap.dao.ModalidadeDAO;
+import br.com.fiap.dao.impl.AtletaDAOImpl;
 import br.com.fiap.dao.impl.ModalidadeDAOImpl;
+import br.com.fiap.entity.Atleta;
 import br.com.fiap.entity.Modalidade;
 import br.com.fiap.exception.DBException;
 import br.com.fiap.exception.IdNotFoundException;

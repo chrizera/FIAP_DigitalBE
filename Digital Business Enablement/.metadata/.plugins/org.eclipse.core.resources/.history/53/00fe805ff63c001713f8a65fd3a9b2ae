@@ -1,0 +1,8 @@
+page_title = Registro de Atleta
+page_title_update = Actualizacion de Atleta
+lbl_name = Nombre
+lbl_date = Fecha de nacimiento
+lbl_ranking = Ranking
+lbl_mod = Modalidad
+btn_save = Gravar
+btn_cancel = Cancelar

@@ -1,10 +1,14 @@
 package br.com.fiap.entity;
 
+import java.util.Calendar;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @SequenceGenerator(name="seqAtleta",
@@ -21,6 +25,9 @@ public class Atleta {
 	private String modalidade;
 	
 	private int ranking;
+	
+	@Temporal(TemporalType.DATE)
+	private Calendar dataNascimento;
 
 	public int getCodigo() {
 		return codigo;
@@ -52,6 +59,14 @@ public class Atleta {
 
 	public void setRanking(int ranking) {
 		this.ranking = ranking;
+	}
+
+	public Calendar getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Calendar dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 	
 }

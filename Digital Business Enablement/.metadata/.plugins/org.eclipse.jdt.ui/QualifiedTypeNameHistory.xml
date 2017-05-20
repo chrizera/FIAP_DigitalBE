@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Jogo"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.JogoDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.JogoDAOImpl"/>
@@ -52,7 +51,6 @@
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.AtletaBO"/>
 <fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
-<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.fiap.to.Atleta"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="br.com.fiap.repository.AtletaRepository"/>
 <fullyQualifiedTypeName name="br.com.fiap.exception.WebServiceException"/>
 <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="br.com.fiap.util.BundleUtil"/>
 </qualifiedTypeNameHistroy>
